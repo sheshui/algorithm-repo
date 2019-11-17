@@ -155,6 +155,6 @@ public class SortTest {
 ////            break;
 //        }
 //        System.out.println(mergeSort(arr1)!=rightMathod(arr2) ? "nice" : "wrong");
-        System.out.println();
+//        System.out.println();
     }
 }
