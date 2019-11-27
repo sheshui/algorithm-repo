@@ -2,7 +2,7 @@ public class BubbleSort extends Sort{
     /**
      * @param arr 需要排序的数组
      */
-    public static void Sort(int[] arr) {
+    public  void sort(int[] arr) {
         if (arr == null || arr.length < 2) {
             return;
         }

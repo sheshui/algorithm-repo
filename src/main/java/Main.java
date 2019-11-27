@@ -1,7 +1,13 @@
+import lombok.Data;
+
+@Data
 public class Main extends Common{
 
-    public static void a(String[] args) {
-            Sort.logarithmic();
+
+    private static CommonInterface sort;
+
+    public static void main(String[] args) {
+            sort.logarithmic();
 //        int[] arr = {-19,2,-15,37,-78,7};
 //        int[] a=copyArray(arr);
 //        rightMathod(a);
@@ -31,4 +37,6 @@ public class Main extends Common{
 //        System.out.println(mergeSort(arr1)!=rightMathod(arr2) ? "nice" : "wrong");
 //        System.out.println();
     }
+
+
 }
