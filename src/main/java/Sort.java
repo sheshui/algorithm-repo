@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 
-public abstract class Sort implements CommonInterface{
+public class Sort {
 
 
     public static void swap(int[] arr, int i, int j) {
